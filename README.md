@@ -6,16 +6,14 @@ a 2-d array of pointers to Critter objects. These pointers can point to Doodlebu
 constructor which will initialize member variables with default values, getters and setters for member variables, a play function which starts and plays the game, a printGrid function which displays the grid with the ants and doodlebugs on it, a startMenu function which displays a menu and allows the user to specify starting options, and allocGrid which dynamically allocates memory for the grid and starting Ant and Doodlebug objects.
 
 
+## System Requirements
+
+Linux, g++ 11+, GNU make
+
 ## Compilation
 
-Use Make to compile.
-
-```bash
-make
-```
+Use Make to compile: `$ make`
 
 ## Usage
 
-```bash
-./main
-```
+Run executable: `$ ./main`
